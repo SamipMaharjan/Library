@@ -21,7 +21,7 @@ export default function Layout() {
           <FontAwesomeIcon icon={faCartShopping} />
         </div>
       </div>
-      <div className="px-[10%]">
+      <div className="">
         <Outlet />
       </div>
     </>
