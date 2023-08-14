@@ -6,6 +6,7 @@ import vincent from "../../Assets/3005.jpg";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import LatestProducts from "./LatestProducts";
+import { Link, Navigate } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -67,7 +68,9 @@ export default function Home() {
               <h2 className="card-title">Save 40% Fantasy</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+                <Link className="btn btn-primary" to="/product">
+                  Buy Now
+                </Link>
               </div>
             </div>
           </div>
@@ -82,7 +85,9 @@ export default function Home() {
               <h2 className="card-title">Save 35% on Fiction</h2>
               <p>If a dog chews shoes whose shoes does he choose?</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+                <Link className="btn btn-primary" to="/product">
+                  Buy Now
+                </Link>
               </div>
             </div>
           </div>

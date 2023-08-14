@@ -5,6 +5,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 // const NavBar = lazy(() => import("./Components/NavBar/NavBar"));
 import Layout from "./Components/Layout/Layout";
 import Home from "./Components/Home/Home";
+import Product from "./Components/Product/Product";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
+      },
+      {
+        path: "/product",
+        element: <Product />,
       },
     ],
   },

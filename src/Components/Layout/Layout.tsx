@@ -7,7 +7,7 @@ export default function Layout() {
     <>
       <div className="navbar bg-neutral flex justify-between px-[10%]">
         <div className="">
-          <a className="btn btn-ghost normal-case text-xl">Library</a>
+          <a className="btn btn-ghost normal-case text-xl">BookStore</a>
         </div>
 
         <div className="w-96">
